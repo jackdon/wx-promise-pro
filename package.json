@@ -1,5 +1,5 @@
 {
-  "name": "wx-promise-pro",
+  "name": "@brucexu/wx-promise-pro",
   "version": "3.2.0",
   "description": "强大的、优雅的小程序 Promise 库",
   "main": "dist/wx-promise-pro.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/youngjuning/wx-promise-pro.git"
+    "url": "git+https://github.com/jackdon/wx-promise-pro.git"
   },
   "keywords": [
     "promise",
@@ -23,12 +23,9 @@
     "miniapp",
     "weixin"
   ],
-  "author": "youngjuning",
+  "author": "jackdon",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/youngjuning/wx-promise-pro/issues"
-  },
-  "homepage": "https://github.com/youngjuning/wx-promise-pro#readme",
+  "homepage": "https://github.com/jackdon/wx-promise-pro#readme",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.8.7",
@@ -38,5 +35,8 @@
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/jackdon/wx-promise-pro/issues"
   }
 }
