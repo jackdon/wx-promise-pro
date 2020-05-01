@@ -15300,7 +15300,7 @@ wx.writeBLECharacteristicValue({
   type WxStopRecordSuccessCallback = (res: GeneralCallbackResult) => void;
 }
 declare const console: WechatMiniprogram.Console;
-declare const wx: {
+declare const wx: WechatMiniprogram.Wx & {
   pro: WechatMiniprogram.Wx,
   downloadFile(option: WechatMiniprogram.DownloadFileOption): WechatMiniprogram.DownloadTask,
   request(option: WechatMiniprogram.RequestOption): WechatMiniprogram.RequestTask,
