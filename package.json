@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "postversion": "yarn build && git push --tags && git push && npm publish"
+    "postversion": "yarn build && git push --tags && git push && npm publish --access public"
   },
   "repository": {
     "type": "git",
